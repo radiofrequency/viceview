@@ -32,7 +32,7 @@ Now in javascript you can do:
 
 In the **ViceView** module go into the example directory and edit server.js.   Update the adslots variable with your adcodes.
 
-Now just run:
+Now just run:  
     npm install  
     node server  
 
