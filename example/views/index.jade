@@ -1,0 +1,19 @@
+html
+	head
+		script(src="/jquery/dist/jquery.min.js")
+		script(src="/underscore/underscore-min.js")
+		script(src="/backbone/backbone-min.js")
+		script(src="/viceview/index.js")
+		script(type="text/javascript")
+			| var adslots = !{JSON.stringify(adslots)};
+		script(src="/app.js")
+	body
+		h1 Super Awesome SPA
+		div(style="float:left;")
+			h2 ads
+			- for adslot in adslots
+				p
+					a(href="#{adslot.id}").nav-link #{adslot.slot}
+		div(style="float:left;")
+			h2 ad display
+			#adview(style="background:blue;")

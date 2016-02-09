@@ -1,0 +1,28 @@
+{
+  "name": "viceview-example",
+  "version": "1.0.0",
+  "description": "Sample Backbone.js single page web app showing how to use ViceView",
+  "main": "server.js",
+  "url": "https://www.datememe.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiofrequency/viceview.git"
+  },
+  "author": "Ryan Folstad <https://www.datememe.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radiofrequency/viceview/issues"
+  },
+  "homepage": "https://github.com/radiofrequency/viceview#readme",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "jquery": "^2.2.0",
+    "viceview": "^1.0.0"
+  }
+}

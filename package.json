@@ -1,0 +1,26 @@
+{
+  "name": "viceview",
+  "version": "1.0.0",
+  "description": "Show Double Click for Publishers (DFP) ads over https for single page web apps",
+  "main": "index.js",
+  "url": "https://www.datememe.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiofrequency/viceview.git"
+  },
+  "keywords": [
+    "ssl",
+    "dfp",
+    "doubleclick",
+    "adsense"
+  ],
+  "author": "Ryan Folstad <support@datememe.com> (https://www.datememe.com)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/radiofrequency/viceview/issues"
+  },
+  "homepage": "https://github.com/radiofrequency/viceview#readme"
+}
