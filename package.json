@@ -1,6 +1,6 @@
 {
   "name": "viceview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Show Double Click for Publishers (DFP) ads over https for single page web apps",
   "main": "index.js",
   "url": "https://www.datememe.com",
