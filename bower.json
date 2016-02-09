@@ -1,0 +1,24 @@
+{
+  "name": "viceview",
+  "description": "Show Double Click for Publishers (DFP) ads over https for single page web apps",
+  "main": "index.js",
+  "authors": [
+    "Ryan Folstad <support@datememe.com> (https://www.datememe.com)"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "ssl",
+    "dfp",
+    "doubleclick",
+    "adsense"
+  ],
+  "homepage": "https://github.com/radiofrequency/viceview",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
