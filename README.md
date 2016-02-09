@@ -21,22 +21,31 @@ Step 1
 Step 2
 ![DFP Screenshot](https://5484a7c8787337b3f8d1092258c32bcb653c2398.googledrive.com/host/0B4H2Vx5E4Rjlcm9RczkxNFZzaTQ/DoubleClick_for_Publishers_-_Network_settings-Tag.png)
 
-Now in javascript you can do:  
+Now in your SPA you can write:  
 ```javascript
   ViceView.showAdsense({adslot: {slot: "myslot", sizes: "[300,100]", id:"your adsenseid"}, element: "element", adwidth: 300, adheight: 100});
 ```
  
+ And the ad will be displayed with the specified size within the element you specified.
 
 
 ## Example
 
-In the **ViceView** module go into the example directory and edit server.js.   Update the adslots variable with your adcodes.
+In the **ViceView** module go into the example directory and edit server.js.  
+Update the adslots variable with your adcodes.  
 
-Now just run:  
-    npm install  
-    node server  
+Now run:
+```shell
+    cd example
+    npm install
+    node server
+```
 
-Open your web browser and go to [http://localhost:9000](http://localhost:9000) in your web browser.
 
-A video showing the example running can be found [here](https://5484a7c8787337b3f8d1092258c32bcb653c2398.googledrive.com/host/0B4H2Vx5E4Rjlcm9RczkxNFZzaTQ/viceview-example.mp4).
-    
+Open your web browser and go to [http://localhost:9009](http://localhost:9000) in your web browser.
+
+
+Here is an youtube video showing the example app running:
+
+[![Adsense for SPA](http://img.youtube.com/vi/L-QKoOYkoV8/0.jpg)](http://www.youtube.com/watch?v=L-QKoOYkoV8)
+
