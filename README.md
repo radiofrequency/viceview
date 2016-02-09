@@ -33,8 +33,8 @@ Now in javascript you can do:
 In the **ViceView** module go into the example directory and edit server.js.   Update the adslots variable with your adcodes.
 
 Now just run:
-    npm install
-    node server
+    npm install  
+    node server  
 
 Open your web browser and go to [http://localhost:9000](http://localhost:9000) in your web browser.
 
